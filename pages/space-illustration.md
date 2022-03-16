@@ -1,5 +1,5 @@
 ---
-title: The Cold War and Children's Books
-layout: cold-war
+title: Illustrating Space
+layout: space-illustration.html
 permalink: /space-illustration.html
 ---
