@@ -1,4 +1,4 @@
-#header-navbar .navbar-brand {
+/* #header-navbar .navbar-brand {
     width: 150px;
     height: 50px;
     background: transparent url({{'/assets/uolib-logo-d6bbb9e7c6712b462e43b2689e652849f8d70f76b56042af3cded0d1b9b25084.png' | relative_url}}) no-repeat top left;
@@ -11,38 +11,7 @@
     margin-right: 20px;
     padding-left: 0;
 }
-#search-navbar {
-    z-index: 1;
-}
-#search-navbar .input-group {
-    width: 100%;
-}
-#search-navbar .input-group-addon.for-search-field {
-    background-color: #fff;
-    border-radius: 4px 0 0 4px;
-    width: 15ch;
-}
-#search-navbar .search_field {
-    background: transparent;
-    border: none;
-}
-#search-navbar .search-query-form {
-    border: 0;
-    padding-left: 0;
-}
-@media screen and (max-width: 480px) {
-    #search-navbar .submit-search-text {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        padding: 0;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        border: 0;
-    }
-}
-
+ */
 /* .image-masthead .background-container-gradient {
     position: absolute;
     left: 0;
