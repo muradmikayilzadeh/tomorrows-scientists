@@ -1,5 +1,5 @@
 ---
 title: Illustrating Space
-layout: space-illustration.html
+layout: space-illustration
 permalink: /space-illustration.html
 ---
