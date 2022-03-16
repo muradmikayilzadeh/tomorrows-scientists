@@ -1,27 +1,11 @@
-/* #header-navbar .navbar-brand {
-    width: 150px;
-    height: 50px;
-    background: transparent url({{'/assets/uolib-logo-d6bbb9e7c6712b462e43b2689e652849f8d70f76b56042af3cded0d1b9b25084.png' | relative_url}}) no-repeat top left;
-    background: transparent url(uolib-logo-d6bbb9e7c6712b462e43b2689e652849f8d70f76b56042af3cded0d1b9b25084.png) no-repeat top left;
-    display: inline-block;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    padding-right: 0;
-    margin-right: 20px;
-    padding-left: 0;
+.breadcrumbs-container{
+    margin-top:20px;
 }
- */
-/* .image-masthead .background-container-gradient {
-    position: absolute;
-    left: 0;
-    right: 0;
-    display: block;
-    width: auto;
-    height: inherit;
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5));
-    height: 100%;
-} */
+
+.breadcrumbs-container li {
+    margin-left:10px;
+}
+
 .masthead{
     padding:30px 0;
     color:white;
@@ -137,3 +121,6 @@ footer {
     width: 40px;
     height: 40px;
 }
+
+.uoankle-container .col-md-5{text-align:right}
+.uoankle-container .col-md-4{text-align:center}
