@@ -1,47 +1,3 @@
-<!-- <footer class="bg-dark mt-auto pt-4 container-fluid">
-
-    <div class="row align-items-center border-bottom border-white pb-4 mb-2">
-
-        <div class="col-md-8 mt-2">
-
-            <h4><a href="{{ '/' | relative_url }}" class="text-white font-weight-normal">{{ site.title }}</a></h4>
-            <p class="text-white"><small>{{ site.description }}</small></p>
-            <nav>
-                <ul class="nav nav-pills">
-                    {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%}
-                    {% for nav in navItems %}
-                    <li class="nav-item">
-                    {% if nav.stub %}
-                        <a class="nav-link text-light{% if page.url == nav.stub %} active{% endif %}" href="{{ nav.stub | relative_url }}">{{ nav.display_name }}</a>
-                    {%- else -%}
-                    {% assign childStub = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nav.display_name' | first %}
-                        <a class="nav-link text-light{% if page.url == childStub.stub %} active{% endif %}" href="{{ childStub.stub | relative_url }}">{{ nav.display_name }}</a>
-                    {% endif %}
-                    </li>
-                    {%- endfor -%}
-                </ul>
-            </nav>
-
-        </div>
-
-        <div class="col-md-4 mt-2 text-right">
-            <p class="text-white" id="footer-credits">
-                <small><em>built with</em>
-                    <a href="https://collectionbuilder.github.io/" target="_blank" rel="noopener" title="CollectionBuilder">
-                        <img src="{{ '/assets/img/collectionbuilder-logo.png' | relative_url }}" class="img-fluid" alt="CollectionBuilder logo" >
-                    </a>
-                </small>
-            </p>
-        </div>
-
-    </div>
-
-    <div class="col-md-12 text-center pt-3 pb-1">
-        <p class="text-white">Last updated {{ site.time | date: '%Y' }}</p>
-    </div>
-
-</footer> -->
-
 <footer>
   <div class="region region-page-bottom">
     <section id="uobannerandfooter-uoankle">
@@ -64,13 +20,13 @@
               </div>
             </address>
           </div>
-          <div class="col-md-push-3 col-md-3">
+          <div class="col-md-5">
             <a href="https://securelb.imodules.com/s/1540/foundation/2col.aspx?sid=1540&amp;gid=1&amp;pgid=408&amp;cid=1095">
                 
               <img alt="Make a Gift" src="{{ '/assets/img/givenow-sm-a9173dd0e87a62f7f47422451098ec50fa931a041fc010a5e6c0734097344ed0.png' | relative_url }}" />
             </a>
           </div>
-          <div class="col-md-3 col-md-push-3 social-icons">
+          <div class="col-md-4 social-icons">
             <a href="http://www.facebook.com/uolibraries">
               <img alt="Facebook" src="{{ '/assets/img/icon-facebook-88d3ee20b79b44e199ea8c81ca862e5175e10509b670f20f0b4d4c083b2a1781.png' | relative_url }}" />
             </a>
