@@ -6,7 +6,6 @@
     text-align: center;
     padding: 1em;
     min-width: 125px;
-    height:260px;
     flex: 1;
     -webkit-flex: 1 1 125px;
 }
