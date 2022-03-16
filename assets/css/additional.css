@@ -43,7 +43,7 @@
     }
 }
 
-.image-masthead .background-container-gradient {
+/* .image-masthead .background-container-gradient {
     position: absolute;
     left: 0;
     right: 0;
@@ -52,7 +52,7 @@
     height: inherit;
     background: linear-gradient(transparent, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5));
     height: 100%;
-}
+} */
 
 .constraints-container {
     line-height: 2.5;
