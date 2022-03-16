@@ -1,3 +1,77 @@
+#header-navbar .navbar-brand {
+    width: 150px;
+    height: 50px;
+    background: transparent "/assets/uolib-logo-d6bbb9e7c6712b462e43b2689e652849f8d70f76b56042af3cded0d1b9b25084.png" no-repeat top left;
+    background: transparent url(uolib-logo-d6bbb9e7c6712b462e43b2689e652849f8d70f76b56042af3cded0d1b9b25084.png) no-repeat top left;
+    display: inline-block;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-right: 0;
+    margin-right: 20px;
+    padding-left: 0;
+}
+#search-navbar {
+    z-index: 1;
+}
+#search-navbar .input-group {
+    width: 100%;
+}
+#search-navbar .input-group-addon.for-search-field {
+    background-color: #fff;
+    border-radius: 4px 0 0 4px;
+    width: 15ch;
+}
+#search-navbar .search_field {
+    background: transparent;
+    border: none;
+}
+#search-navbar .search-query-form {
+    border: 0;
+    padding-left: 0;
+}
+@media screen and (max-width: 480px) {
+    #search-navbar .submit-search-text {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+    }
+}
+.constraints-container {
+    line-height: 2.5;
+    padding: 16px 19px;
+}
+.appliedFilter .constraint-value {
+    cursor: default;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+@media (max-width: 767px) {
+    .appliedFilter .constraint-value {
+        max-width: 240px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .appliedFilter .constraint-value {
+        max-width: 384px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .appliedFilter .constraint-value {
+        max-width: 496px;
+    }
+}
+@media (min-width: 1200px) {
+    .appliedFilter .constraint-value {
+        max-width: 600px;
+    }
+}
+
 .spotlight-flexbox {
     display: flex;
     flex-flow: row wrap;
