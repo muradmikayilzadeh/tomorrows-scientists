@@ -1,3 +1,28 @@
+.spotlight-flexbox {
+    display: flex;
+    flex-flow: row wrap;
+}
+.spotlight-flexbox .box {
+    text-align: center;
+    padding: 1em;
+    min-width: 125px;
+    flex: 1;
+    -webkit-flex: 1 1 125px;
+}
+@media (max-width: 767px) {
+    .spotlight-flexbox .box {
+        min-width: 200px;
+        -webkit-flex: 1 1 200px;
+    }
+}
+.spotlight-flexbox .box .caption {
+    margin-top: 5px;
+    font-style: italic;
+}
+.spotlight-flexbox .box img {
+    max-width: 100%;
+}
+
 footer {
 /*     position: absolute; */
     bottom: 0;
