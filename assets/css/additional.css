@@ -1,7 +1,7 @@
 #header-navbar .navbar-brand {
     width: 150px;
     height: 50px;
-    background: transparent url('/assets/uolib-logo-d6bbb9e7c6712b462e43b2689e652849f8d70f76b56042af3cded0d1b9b25084.png' | relative_url) no-repeat top left;
+    background: transparent url({{'/assets/uolib-logo-d6bbb9e7c6712b462e43b2689e652849f8d70f76b56042af3cded0d1b9b25084.png' | relative_url}}) no-repeat top left;
     background: transparent url(uolib-logo-d6bbb9e7c6712b462e43b2689e652849f8d70f76b56042af3cded0d1b9b25084.png) no-repeat top left;
     display: inline-block;
     text-indent: 100%;
