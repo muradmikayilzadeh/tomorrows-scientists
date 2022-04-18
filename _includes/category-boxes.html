@@ -9,7 +9,7 @@
            
            {% for box in boxItems %}
             
-              {%- assign moduloResult = box.id | modulo:2 -%}
+              {%- assign moduloResult = box.id | modulo:3 -%}
             
               {% if moduloResult == 1 %}
               <div class="spotlight-flexbox browse-categories categories-3" data-sidebar='false'>
