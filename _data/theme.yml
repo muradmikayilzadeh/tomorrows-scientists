@@ -10,7 +10,7 @@
 # use either an objectid (from an item in this collect), a relative location of an image in this repo (ex. /assets/img/feature.jpg), or a full url to an image elsewhere
 featured-image: demo_001
 # optional: add extra padding around collection title for a larger image feature. 
-header-main-title: Tomorrow’s Scientists
+header-main-title: Tomorrow’s Scienti
 header-secondary-title: Children’s Literature of the Cold War Era
 
 ##########
