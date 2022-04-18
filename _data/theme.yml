@@ -8,7 +8,7 @@
 #
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo (ex. /assets/img/feature.jpg), or a full url to an image elsewhere
-featured-image: demo_001
+featured-image: uolib-logo-d6bbb9e7c6712b462e43b2689e652849f8d70f76b56042af3cded0d1b9b25084.png
 # optional: add extra padding around collection title for a larger image feature. 
 header-main-title: Tomorrow’s Scientist
 header-secondary-title: Children’s Literature of the Cold War Era
